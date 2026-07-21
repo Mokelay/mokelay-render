@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, provide } from 'vue';
-import { MokelayBlockRenderer } from 'mokelay-components/blocks';
+import MokelayBlockRenderer from 'mokelay-components/blocks/MokelayBlockRenderer.vue';
 import { createPreviewBlockRuntime, PreviewBlockRuntimeKey } from 'mokelay-components/runtime';
 import {
   PageLocaleConfigKey,

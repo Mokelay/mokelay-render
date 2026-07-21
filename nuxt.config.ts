@@ -37,7 +37,7 @@ export default defineNuxtConfig({
     },
     optimizeDeps: {
       exclude: ['mokelay-components'],
-      include: []
+      include: ['ajv']
     },
     ssr: {
       noExternal: ['mokelay-components', 'element-ui']

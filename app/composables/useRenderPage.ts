@@ -1,5 +1,5 @@
 import { collectBlockTypes, type RenderPage } from '#shared/page';
-import { preloadMokelayBlocks } from 'mokelay-components/blocks';
+import { preloadMokelayBlocks } from 'mokelay-components/blocks/runtimeRegistry';
 
 export async function useRenderPage(slug: string) {
   const key = `mokelay-page:${slug}`;
