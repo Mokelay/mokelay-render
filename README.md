@@ -15,10 +15,14 @@ Examples:
 ## Development
 
 ```bash
+nvm install
+nvm use
 npm install
 cp .env.example .env
 npm run dev
 ```
+
+The project uses Node.js 22 as declared in `.nvmrc`.
 
 The local server listens on `http://127.0.0.1:3100`. Set `MOKELAY_API_BASE_URL` when API datasources and actions use relative URLs.
 
