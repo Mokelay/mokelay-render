@@ -1,0 +1,10 @@
+{
+  "uuid": "home",
+  "name": "Mokelay SSR 示例",
+  "blocks": [
+    { "id": "title", "type": "MHeading", "data": { "text": "Mokelay 页面已完成服务端渲染", "level": "1", "align": "center" } },
+    { "id": "intro", "type": "paragraph", "data": { "text": "这段内容直接来自 <strong>page-dsl/home.json</strong>。" } },
+    { "id": "divider", "type": "MDividerLine", "data": {} },
+    { "id": "subtitle", "type": "MHeading", "data": { "text": "同一份 DSL 也可通过 /csr/home 渲染", "level": "2" } }
+  ]
+}

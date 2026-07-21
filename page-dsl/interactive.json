@@ -1,0 +1,12 @@
+{
+  "uuid": "interactive",
+  "name": "Mokelay 交互示例",
+  "dataSources": [
+    { "key": "profile", "type": "static", "value": { "name": "Mokelay User", "status": "ready" } }
+  ],
+  "blocks": [
+    { "id": "title", "type": "MHeading", "data": { "text": "交互与数据源示例", "level": "1" } },
+    { "id": "profile", "type": "paragraph", "data": { "text": "SSR 数据：{{ dataSources.profile.name }} / {{ dataSources.profile.status }}" } },
+    { "id": "action", "type": "MButton", "data": { "label": "可交互按钮", "variant": "primary" } }
+  ]
+}
