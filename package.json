@@ -23,7 +23,7 @@
     "echarts": "^6.0.0",
     "element-ui": "npm:element-plus@^2.14.0",
     "json-editor-vue": "^0.18.1",
-    "mokelay-components": "0.2.13",
+    "mokelay-components": "0.2.14",
     "nuxt": "^4.4.4",
     "qrcode": "^1.5.4",
     "vanilla-jsoneditor": "^3.6.1",
